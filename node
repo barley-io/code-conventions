@@ -1,0 +1,94 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "array-bracket-spacing": "error",
+    "arrow-parens": "error",
+    "arrow-spacing": "error",
+    "comma-dangle": "error",
+    "computed-property-spacing": "error",
+    "dot-location": [
+      "error",
+      "property"
+    ],
+    "dot-notation": "error",
+    "func-call-spacing": "error",
+    "generator-star-spacing": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "keyword-spacing": "error",
+    "linebreak-style": "off",
+    "no-class-assign": "error",
+    "no-confusing-arrow": "error",
+    "no-console": "error",
+    "no-const-assign": "error",
+    "no-constant-condition": "error",
+    "no-dupe-class-members": "error",
+    "no-extra-semi": "error",
+    "no-implicit-coercion": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multi-spaces": "error",
+    "no-octal": "error",
+    "no-redeclare": "error",
+    "no-spaced-func": "error",
+    "no-trailing-spaces": "error",
+    "no-undef": "error",
+    "no-unneeded-ternary": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "none"
+      }
+    ],
+    "no-var": "error",
+    "no-whitespace-before-property": "error",
+    "object-curly-spacing": "error",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "quote-props": [
+      "error",
+      "as-needed"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "require-yield": "error",
+    "semi": [
+      "error",
+      "always"
+    ],
+    "comma-spacing":["error", { "before": false, "after": true }],
+    "space-before-blocks": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "space-unary-ops": "error",
+    "switch-colon-spacing": "error",
+    "template-curly-spacing": "error",
+    "template-tag-spacing": "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "jasmine": true
+  }
+}
