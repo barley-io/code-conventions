@@ -21,6 +21,7 @@
       }
     ],
     "keyword-spacing": "error",
+    "key-spacing": ["error", {"beforeColon": false}],
     "linebreak-style": "off",
     "no-class-assign": "error",
     "no-confusing-arrow": "error",
